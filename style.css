@@ -50,3 +50,10 @@
 @media(max-width:950px){.featured-evidence{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.subhero{padding:32px 22px}.subhero>p{font-size:17px}.ratio-grid,.alt-grid,.three-points,.featured-evidence,.scale-explainer{grid-template-columns:1fr}.action-panel{display:block}.action-panel .button{display:inline-block}.square-visual{max-width:240px}.ratio-card,.alt-grid article{padding:18px}}
 @media print{.subhero{background:white;color:black}.subhero>p{color:black}.ratio-card,.alt-grid article,.three-points article,.featured-evidence article,.scale-explainer,.action-panel{background:white}.subhero .button{display:none}}
+
+/* Accès rapide au dossier de l'atelier depuis l'accueil. */
+.atelier-teaser{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:28px 30px;background:#fff3c2;border-left:5px solid var(--yellow);margin:22px 0 0!important}
+.atelier-teaser>div{max-width:790px}.atelier-teaser h2{font-size:clamp(22px,2.5vw,30px);margin:8px 0}.atelier-teaser p{font-size:15px;margin:8px 0}
+.atelier-teaser .button{flex-shrink:0}
+@media(max-width:760px){.atelier-teaser{display:block;padding:22px 18px}.atelier-teaser .button{display:inline-block;margin-top:12px}header nav{gap:12px}}
+@media print{.atelier-teaser{background:white;border-color:black}}
